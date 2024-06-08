@@ -1,3 +1,5 @@
+//考点: 区间动态规划  记忆化memoization
+
 /**
  * 给你一个整数数组 nums ，如果 nums 至少 包含 2 个元素，你可以执行以下操作中的 任意 一个：
 
@@ -11,7 +13,6 @@
 请你返回按照上述要求 最多 可以进行的操作次数。
  */
 
-//考点: 区间动态规划  记忆化memoization
 function maxOperations(nums: number[]): number {
   const n = nums.length;
   if (n < 2) return 0;
